@@ -20,7 +20,7 @@ header {
   padding: 0.5rem;
   justify-content: space-between;
 }
-header h2 {
+header h1 {
   margin-left: 2rem;
   letter-spacing: 1px;
   color: #e45858;
@@ -30,7 +30,7 @@ header h2 {
   align-items: center;
   list-style-type: none;
   justify-content: space-between;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 .nav-item {
   color: #f1f1f1;
