@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shiraz Muhammed</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <section class="cover-section">
+      <header>
+        <div>
+          <h2>Shiraz Muhammed</h2>
+        </div>
+        <div>
+          <button class="nav-button" id="nav-button">&#9776;</button>
+        </div>
+        <div class="navs">
+          <nav>
+            <ul class="nav-ul">
+              <li><a href="" class="nav-item">Home</a></li>
+              <li><a href="" class="nav-item">About</a></li>
+              <li><a href="" class="nav-item">Services</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="nav-section" id="nav-section-2" hidden>
+        <nav>
+          <ul class="nav-ul-2">
+            <li><a href="" class="nav-item">Home</a></li>
+            <li><a href="" class="nav-item">About</a></li>
+            <li><a href="" class="nav-item">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $("#nav-button").click(()=>{
+          $("#nav-section-2").slideToggle()
+      })
+    </script>
+    
+  </body>
+</html>
+<!---->
