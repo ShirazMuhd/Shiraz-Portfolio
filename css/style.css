@@ -1,5 +1,5 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 body {
   margin: 0px;
@@ -21,6 +21,7 @@ header {
   justify-content: space-between;
 }
 header h2 {
+  margin-left: 2rem;
   letter-spacing: 1px;
   color: #e45858;
 }
@@ -51,30 +52,19 @@ header h2 {
 .nav-button:hover {
   color: #e45858;
 }
-@media (max-width: 529px) {
-  .navs {
-    display: none;
-  }
-  .nav-button {
-    display: flex;
-  }
-  .nav-ul-2 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    list-style-type: none;
-    justify-content: space-between;
-    margin-top: 1rem;
-  }
-  .nav-ul-2 li{
-    margin-top: 1rem;
-  }
+.hero-section {
+  padding: 5rem;
+  color: #f1f1f1;
 }
-@media (min-width: 529px){
-    .nav-ul-2 {
-        display: none;
-      }
-      .nav-button{
-          display: none;
-      }
+.hero-section h2 span {
+  color: #e45858;
+}
+.btn-main{
+    padding: 0.4rem;
+    background-color: #e45858;
+    border: none;
+    border-radius: 3px;
+    width: 5rem;
+    font-weight: bold;
+    cursor: pointer;
 }
