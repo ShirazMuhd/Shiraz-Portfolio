@@ -12,6 +12,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 94%, 53% 94%, 50% 100%, 47% 94%, 0 94%, 0 0, 56% 0);
 }
 header {
   width: 100%;
