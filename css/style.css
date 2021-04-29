@@ -34,7 +34,7 @@ header h1 {
 }
 .nav-item {
   color: #f1f1f1;
-  margin: 1rem;
+  margin-right: 2rem;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -59,12 +59,54 @@ header h1 {
 .hero-section h2 span {
   color: #e45858;
 }
-.btn-main{
-    padding: 0.4rem;
-    background-color: #e45858;
-    border: none;
-    border-radius: 3px;
-    width: 5rem;
-    font-weight: bold;
-    cursor: pointer;
+.hero-section h4 span {
+  color: #e45858;
+}
+.btn-main {
+  padding: 0.4rem;
+  background-color: #e45858;
+  border: none;
+  font-weight: lighter;
+  border-radius: 3px;
+  width: 5rem;
+  cursor: pointer;
+}
+.hero-section h5 {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: justify;
+}
+/*normal*/
+.profile-img{
+  width: 19rem; 
+}
+.pro-display-section{
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.pro-display-section p{
+  
+  text-align: justify;
+  margin: 0px;
+  color: #6c757d;
+  margin-top: 2rem;
+  line-height: 28px;
+}
+.pro-display-section h2{
+  margin-top: 2rem;
+  color: #e45858;
+  font-weight: lighter;
+}
+.p-5{
+  padding: 5rem;
+}
+.pro-display-section button{
+  margin-top: 1rem;
 }

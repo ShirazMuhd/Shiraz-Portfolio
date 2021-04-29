@@ -1,9 +1,10 @@
-@media (max-width: 529px) {
+@media (max-width: 569px) {
   .navs {
     display: none;
   }
-  .nav-button {
+  .nav-button{
     display: flex;
+    margin-right: 1rem;
   }
   .nav-ul-2 {
     display: flex;
@@ -15,9 +16,14 @@
   }
   .nav-ul-2 li {
     margin-top: 1rem;
+    margin-right: 0px;
+  }
+  .nav-ul-2 button{
+    margin-right: 1.5rem;
   }
 }
-@media (min-width: 529px) {
+
+@media (min-width: 569px) {
   .nav-ul-2 {
     display: none;
   }
@@ -29,4 +35,20 @@
     .hero-section{
         padding: 3rem;
     }
+}
+@media (min-width:949px){
+  .hero-section h5{
+    width: 20rem;
+  }
+
+}
+@media (max-width:518px){
+  .pro-display-section p{
+    margin: 2rem;
+  }
+}
+@media (min-width:1042px){
+  .pro-display-section p{
+    width: 30rem;
+  }
 }
