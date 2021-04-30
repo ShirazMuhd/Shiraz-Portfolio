@@ -1,74 +1,62 @@
+
 html {
   scroll-behavior: smooth;
 }
-
 body {
   margin: 0px;
   padding: 0px;
   font-family: sans-serif;
 }
-
 .cover-section {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/cover-photo.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/cover-photo.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/cover-photo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 94%, 53% 94%, 50% 100%, 47% 94%, 0 94%, 0 0, 56% 0);
-          clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 94%, 53% 94%, 50% 100%, 47% 94%, 0 94%, 0 0, 56% 0);
-  -webkit-animation: change-background 7s linear 0s;
-          animation: change-background 7s linear 0s;
+  clip-path: polygon(
+    50% 0%,
+    100% 0,
+    100% 35%,
+    100% 94%,
+    53% 94%,
+    50% 100%,
+    47% 94%,
+    0 94%,
+    0 0,
+    56% 0
+  );
 }
-
 .co-main {
   color: #e45858;
 }
-
 header {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 0.5rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 header h1 {
   margin-left: 2rem;
   letter-spacing: 1px;
   color: #e45858;
 }
-
 .nav-ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   list-style-type: none;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-right: 2rem;
 }
-
 .nav-item {
   color: #f1f1f1;
   margin-right: 2rem;
   text-decoration: none;
   font-weight: bolder;
 }
-
 .nav-item:hover {
   color: #e45858;
 }
-
 .nav-button {
   background: none;
   border: none;
@@ -77,28 +65,22 @@ header h1 {
   margin-right: 1.5rem;
   cursor: pointer;
 }
-
 .nav-button:hover {
   color: #e45858;
 }
-
 .hero-section {
   padding: 5rem;
   color: #f1f1f1;
 }
-
 .hero-section h2 span {
   color: #e45858;
 }
-
 .hero-section h5 {
   margin-top: 1rem;
 }
-
 .hero-section h4 span {
   color: #e45858;
 }
-
 .btn-main {
   padding: 0.4rem;
   background-color: #e45858;
@@ -108,7 +90,6 @@ header h1 {
   width: 5rem;
   cursor: pointer;
 }
-
 .hero-section h5 {
   color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -117,29 +98,18 @@ header h1 {
   line-height: 23px;
   text-align: justify;
 }
-
 /*normal*/
 .profile-img {
   width: 19rem;
   padding: 1rem;
 }
-
 .pro-display-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   text-align: center;
 }
-
 .pro-display-section p {
   text-align: justify;
   margin: 0px;
@@ -147,34 +117,23 @@ header h1 {
   margin-top: 2rem;
   line-height: 28px;
 }
-
 .pro-display-section h2 {
   margin-top: 2rem;
   color: #e45858;
   font-weight: lighter;
 }
-
 .p-5 {
   padding: 5rem;
 }
-
 .pro-display-section button {
   margin-top: 1rem;
 }
-
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
   background-color: #fff;
   margin-top: 1rem;
   color: #6c757d;
 }
-/*# sourceMappingURL=style.css.map */
