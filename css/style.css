@@ -9,7 +9,7 @@ body {
 }
 .cover-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/cover-photo.jpg");
+    url("/images/cover-photo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
