@@ -27,7 +27,7 @@
           <nav>
             <ul class="nav-ul">
               <li><a href="#cover-section" class="nav-item">Home</a></li>
-              <li><a href="" class="nav-item">About</a></li>
+              <li><a href="#pro-display-section" class="nav-item">About</a></li>
               <li><a href="" class="nav-item">Services</a></li>
               <li>
                 <a href=""><button class="btn-main">Hire me</button></a>
@@ -61,9 +61,9 @@
       </section>
     </section>
 
-    <section class="pro-display-section">
+    <section class="pro-display-section" id="pro-display-section">
       <div class="">
-        <img src="/images/profile.jpg" class="profile-img" alt="" />
+        <img src="/images/profile.jpg" class="profile-img" alt="shiraz" />
       </div>
       <div>
         <h2>More about Me</h2>
@@ -77,7 +77,18 @@
       </div>
     </section>
 
+    <footer>
+      <h6>&copy; <span id="year"></span> | designed by <span class="co-main"> Shiraz Muhammed</span></h6>
+    </footer>
+
     <!--end body-->
+
+    <script>
+      var d=new Date()
+      var year=d.getFullYear()
+      document.getElementById('year').innerHTML=year
+      
+    </script>
 
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
@@ -86,9 +97,11 @@
     ></script>
 
     <script>
-      $("#nav-button").click(()=>{
-        $("#nav-section-2").slideDown()
-      })
+      $(document).ready(() => {
+        $("#nav-button").click(() => {
+          $("#nav-section-2").slideDown();
+        });
+      });
     </script>
   </body>
 </html>
