@@ -76,7 +76,9 @@ header h1 {
   color: #e45858;
 }
 .hero-section h5 {
+  font-weight: 700;
   margin-top: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .hero-section h4 span {
   color: #e45858;
@@ -90,6 +92,9 @@ header h1 {
   width: 5rem;
   cursor: pointer;
 }
+.btn-main:hover{
+  
+}
 .hero-section h5 {
   color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -100,8 +105,12 @@ header h1 {
 }
 /*normal*/
 .profile-img {
+  
   width: 19rem;
   padding: 1rem;
+}
+.profile-img:hover{
+  cursor: pointer;
 }
 .pro-display-section {
   display: flex;
