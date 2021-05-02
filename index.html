@@ -37,7 +37,7 @@
         </div>
       </header>
 
-      <div class="nav-section" id="nav-section-2" hidden>
+      <div class="nav-section" id="nav-section-2">
         <nav>
           <ul class="nav-ul-2">
             <li><a href="" class="nav-item">Home</a></li>
@@ -99,9 +99,9 @@
     ></script>
 
     <script>
-      var nav_btn = document.getElementById('nav-button')
-      nav_btn.addEventListener('click',()=>{
-        document.getElementById('nav-section-2').classList.add('not-hidden')
+      $("#nav-button").click(()=>{
+        $("#nav-section-2").slideToggle()
+        console.log("nav-button clicked");
       })
     </script>
   </body>
