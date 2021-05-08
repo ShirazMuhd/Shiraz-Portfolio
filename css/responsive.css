@@ -17,17 +17,22 @@
     align-items: center;
     flex-direction: column;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem;
+    text-align: center;
   }
   .nav-ul-2 li {
     margin-top: 1rem;
     margin-right: 0px;
     list-style-type: none;
-
+  }
+  .nav-section nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .nav-ul-2 button {
-    margin-right: 1.5rem;
+    margin-right: 2rem;
   }
 }
 

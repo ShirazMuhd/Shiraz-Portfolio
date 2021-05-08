@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  padding: 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/cover-photo-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+header {
+  padding: 1rem;
+}
+header h1 {
+  font-weight: Microsoft YaHei;
+  color: #e45858;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+section {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+}
+section .content-section h2 {
+  color: #f1f1f1;
+  font-weight: lighter;
+}
+section .content-section h2 span {
+  color: #e45858;
+}
+section .content-section p {
+  color: #f1f1f1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+@media (min-width: 949px) {
+  section .content-section p {
+    width: 20rem;
+  }
+}
+
+/*style form section*/
+
+.form-section{
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  text-align: center;
+
+}
+.form-section h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: #e45858;
+  text-align: center;
+}
+.form-section .input-div label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #6c757d;
+  margin-right: 1rem;
+}
+.form-section .input-div input{
+  padding: 0.25rem;
+  margin-top: 1rem;
+  width: 10rem;
+  padding: 0.5rem;
+  border: 0.05rem solid #6c757d;
+  border-radius: 5px;
+}
