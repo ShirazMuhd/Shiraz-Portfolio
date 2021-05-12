@@ -33,7 +33,7 @@
         </div>
       </header>
 
-      <div class="nav-section" id="nav-section-2">
+      <div class="nav-section" id="nav-section-2" hidden>
         <nav>
           <ul class="nav-ul-2">
             <li><a href="" class="nav-item">Home</a></li>
@@ -80,7 +80,6 @@
     <section class="services">
       <!--Services section-->
       <div class="sevices-list">
-
         <div class="card">
           <i class="fas fa-code"></i>
           <h3>Web devolepment</h3>
@@ -136,10 +135,15 @@
     </footer>
 
     <!--end body-->
-    <script src="https://kit.fontawesome.com/85afa3adf2.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/85afa3adf2.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="/js/script.js"></script>
     <script>
-      getYear();
+      var d = new Date();
+      var year = d.getFullYear();
+      document.getElementById("year").innerHTML = year;
     </script>
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
