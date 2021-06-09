@@ -9,6 +9,7 @@ body {
 .cover-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/cover-photo.jpg");
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,6 +40,7 @@ header h1 {
   margin-left: 2rem;
   letter-spacing: 1px;
   color: #e45858;
+  font-weight: lighter;
 }
 .nav-ul {
   display: flex;
@@ -162,9 +164,31 @@ footer h6 {
 .services {
   margin-top: 3rem;
   padding: 1.5rem;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/cover-photo.jpg"); */
+  background-color: #f6f6f6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+.sevices-list {
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.services .heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e45858;
+}
+.services .heading h1 {
+  font-weight: lighter;
+  font-size: 30px;
 }
 .sevices-list {
   display: flex;
@@ -176,12 +200,19 @@ footer h6 {
   width: 16rem;
   padding: 1rem;
   margin: 0.7rem;
-  background-color: #f7f7f7;
-  cursor: pointer;
+  background-color: #fff;
+  border-radius: 6px;
+  transition: .3s all ease;
+  color: #e45858;
+  cursor: auto;
+}
+.card:hover {
+  background-color: #e45858;
+  color: #fff;
+  transform: translateY();
 }
 .card h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #e45858;
   font-weight: 400;
 }
 .card p {
@@ -190,6 +221,5 @@ footer h6 {
   font-weight: lighter;
 }
 .card i {
-  color: #e45858;
   font-size: 35px;
 }
