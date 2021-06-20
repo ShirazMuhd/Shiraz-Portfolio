@@ -209,7 +209,7 @@ footer h6 {
 .card:hover {
   background-color: #e45858;
   color: #fff;
-  transform: translateY(25px);
+  transform: translateY(-20px);
 }
 .card h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
