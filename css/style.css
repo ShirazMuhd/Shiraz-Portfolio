@@ -202,7 +202,7 @@ footer h6 {
   margin: 0.7rem;
   background-color: #fff;
   border-radius: 6px;
-  transition: .3s all ease;
+  transition: 0.3s all ease;
   color: #e45858;
   cursor: auto;
 }
