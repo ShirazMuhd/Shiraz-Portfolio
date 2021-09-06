@@ -108,6 +108,7 @@ header h1 {
 .profile-img {
   width: 19rem;
   padding: 1rem;
+  border-radius: 20px;
 }
 .profile-img:hover {
   cursor: pointer;
