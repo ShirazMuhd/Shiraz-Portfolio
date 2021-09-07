@@ -43,6 +43,9 @@
   .nav-button {
     display: none;
   }
+  .hero-section{
+    height: 50vh;
+  }
 }
 @media (max-width: 392px) {
   .hero-section {
